@@ -5,10 +5,10 @@
 ## 配色 / Schemes
 
 wechat_default_light / wechat_default_dark
-<img width="1820" height="470" alt="default" src="https://github.com/user-attachments/assets/f2085b34-f388-4fd4-83d6-748d3e0ff426" />
+![default](preview-default.png)
 
 wechat_blue_light / wechat_blue_dark
-<img width="1820" height="470" alt="blue" src="https://github.com/user-attachments/assets/fba74a47-02c3-43e5-b3a5-3decb1a16013" />
+![blue](preview-blue.png)
 
 
 ## 安装
