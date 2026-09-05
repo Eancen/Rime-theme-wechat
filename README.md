@@ -19,10 +19,10 @@ wechat_blue_light / wechat_blue_dark
 
 ## 切换配色
 
-**修改文件**：
-`style/color_scheme` 选浅色（`wechat_default_light` / `wechat_blue_light`），
-`style/color_scheme_dark` 选深色（`wechat_default_dark` / `wechat_blue_dark`），
-改完重新部署。系统切换至深色模式时会自动切换到深色配色
+**修改 weasel.custom.yaml 文件**：
+- `style/color_scheme` 选浅色（`wechat_default_light` / `wechat_blue_light`）
+- `style/color_scheme_dark` 选深色（`wechat_default_dark` / `wechat_blue_dark`）
+- 改完重新部署。系统切换至深色模式时会自动切换到深色配色
   
 ## 致谢 / Credits
 
