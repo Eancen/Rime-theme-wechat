@@ -1,17 +1,17 @@
 # ===========================================================================
 # 微信输入法风格小狼毫主题 / WechatIME theme for Weasel (Rime on Windows)
 # 四套配色 / Four schemes:
-#   wechat_default      浅色（默认）
+#   wechat_default_light 浅色（默认）
 #   wechat_default_dark 深色
-#   wechat_blue         浅色
+#   wechat_blue_light   浅色
 #   wechat_blue_dark    深色
 # 切换主题: 改 style/color_scheme（浅色）与 style/color_scheme_dark（深色）
 #   后重新部署；深色自动切换需 Windows 10 1809 及以上。
 # ===========================================================================
 patch:
   # ---- 启用配色 / Select schemes --------------------------------------------
-  # 浅色模式：wechat_default（默认绿）或 wechat_blue（蓝）
-  style/color_scheme: wechat_default
+  # 浅色模式：wechat_default_light（默认绿）或 wechat_blue_light（蓝）
+  style/color_scheme: wechat_default_light
   # 深色模式（系统深色时自动切换）：wechat_default_dark 或 wechat_blue_dark
   style/color_scheme_dark: wechat_default_dark
 
@@ -40,7 +40,7 @@ patch:
   style/layout/shadow_offset_y: 0         # 阴影不偏移 / centered, no offset
 
   # ---- 浅色绿色（默认）/ light green -------------
-  preset_color_schemes/wechat_default:
+  preset_color_schemes/wechat_default_light:
     name: 微信风格·默认浅色／WeChat Style Default
     author: Eancen
     shadow_color: 0x0A000000                 # 浅色阴影更淡（~4% 黑）/ fainter shadow on light
@@ -76,7 +76,7 @@ patch:
     hilited_comment_text_color: 0xCCFFFFFF
 
   # ---- 浅色蓝色 / light blue --------------------
-  preset_color_schemes/wechat_blue:
+  preset_color_schemes/wechat_blue_light:
     name: 微信风格·蓝浅色／WeChat Style Blue
     author: Eancen
     shadow_color: 0x0A000000
