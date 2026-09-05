@@ -4,10 +4,12 @@
 
 ## 配色 / Schemes
 
-wechat_default  默认浅色模式
-wechat_default_dark  默认深色模式
-wechat_blue  蓝浅色模式
-wechat_blue_dark  蓝深色模式
+wechat_default_light / wechat_default_dark
+<img width="1820" height="470" alt="default" src="https://github.com/user-attachments/assets/f2085b34-f388-4fd4-83d6-748d3e0ff426" />
+
+wechat_blue_light / wechat_blue_dark
+<img width="1820" height="470" alt="blue" src="https://github.com/user-attachments/assets/fba74a47-02c3-43e5-b3a5-3decb1a16013" />
+
 
 ## 安装
 
@@ -17,7 +19,7 @@ wechat_blue_dark  蓝深色模式
 
 ## 切换配色
 
-- **修改文件**：`style/color_scheme` 选浅色（`wechat_default` / `wechat_blue`），`style/color_scheme_dark` 选深色（`wechat_default_dark` / `wechat_blue_dark`），改完重新部署。系统进深色模式时会自动切换到深色配色
+- **修改文件**：`style/color_scheme` 选浅色（`wechat_default_light` / `wechat_blue_light`），`style/color_scheme_dark` 选深色（`wechat_default_dark` / `wechat_blue_dark`），改完重新部署。系统进深色模式时会自动切换到深色配色
   
 ## 致谢 / Credits
 
